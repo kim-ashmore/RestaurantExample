@@ -1,0 +1,5 @@
+<% if spree_current_user %>
+  
+<% else %>
+  <li id="link-to-login"><%= link_to Spree.t(:login), spree.login_path %></li>
+<% end %>
